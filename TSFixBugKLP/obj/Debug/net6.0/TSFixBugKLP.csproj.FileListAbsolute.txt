@@ -1,0 +1,13 @@
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\bin\Debug\net6.0\HttpServer.dll
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\bin\Debug\net6.0\TSFixBugKLP.deps.json
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\bin\Debug\net6.0\TSFixBugKLP.dll
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\bin\Debug\net6.0\TSFixBugKLP.pdb
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.csproj.AssemblyReference.cache
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.AssemblyInfoInputs.cache
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.AssemblyInfo.cs
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.csproj.CoreCompileInputs.cache
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.dll
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\refint\TSFixBugKLP.dll
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.pdb
+C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\ref\TSFixBugKLP.dll
