@@ -11,3 +11,16 @@ C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.
 C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\refint\TSFixBugKLP.dll
 C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.pdb
 C:\Users\Rock\source\repos\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\ref\TSFixBugKLP.dll
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\bin\Debug\net6.0\HttpServer.dll
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\bin\Debug\net6.0\TSFixBugKLP.deps.json
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\bin\Debug\net6.0\TSFixBugKLP.dll
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\bin\Debug\net6.0\TSFixBugKLP.pdb
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.csproj.AssemblyReference.cache
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.AssemblyInfoInputs.cache
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.AssemblyInfo.cs
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.csproj.CoreCompileInputs.cache
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.dll
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\refint\TSFixBugKLP.dll
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\TSFixBugKLP.pdb
+D:\Nightklp_KLP\my_Terraria_Plugins\my plugins\TSFixBugKLP\TSFixBugKLP\obj\Debug\net6.0\ref\TSFixBugKLP.dll

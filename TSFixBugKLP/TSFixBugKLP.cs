@@ -147,8 +147,8 @@ namespace TSFixBugKLP
                             await fixp();
                             async Task fixp()
                             {
-                                await Task.Delay(2000);
-                                NetMessage.SendData((int)PacketTypes.PlayerUpdate, -1, -1, NetworkText.Empty, playerid);
+                                await Task.Delay(800);
+                                NetMessage.SendData((int)PacketTypes.PlayerSpawn, -1, -1, NetworkText.Empty, playerid);
                             }
                         }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y6zcBtjN+uc=",
+  "dgSpecHash": "0pjKZzEFf1w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rock\\source\\repos\\TSFixBugKLP\\TSFixBugKLP\\TSFixBugKLP.csproj",
+  "projectFilePath": "D:\\Nightklp_KLP\\my_Terraria_Plugins\\my plugins\\TSFixBugKLP\\TSFixBugKLP\\TSFixBugKLP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rock\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Rock\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
