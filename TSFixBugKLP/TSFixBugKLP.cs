@@ -6,6 +6,7 @@ using TShockAPI;
 using Terraria.Localization;
 using Terraria.GameContent.Tile_Entities;
 using Terraria.DataStructures;
+using System.Net;
 
 namespace TSFixBugKLP
 {
@@ -33,6 +34,7 @@ namespace TSFixBugKLP
         #region [ Initialize ]
         public override void Initialize()
         {
+            ServerApi.Hooks.WorldSave.Register(this, OnWorldSave);
             ServerApi.Hooks.NetGetData.Register(this, OnGetData);
 
             GeneralHooks.ReloadEvent += OnReload;
@@ -44,6 +46,7 @@ namespace TSFixBugKLP
         {
             if (disposing)
             {
+                ServerApi.Hooks.WorldSave.Deregister(this, OnWorldSave);
                 ServerApi.Hooks.NetGetData.Deregister(this, OnGetData);
 
                 GeneralHooks.ReloadEvent -= OnReload;
@@ -63,6 +66,38 @@ namespace TSFixBugKLP
         }
 
         #endregion
+
+        #region [ Get Latest Version ]
+
+        public async Task InformLatestVersion()
+        {
+            var http = HttpWebRequest.CreateHttp("https://raw.githubusercontent.com/Nightklpgaming/TShock-GSKLP-Moderation/master/version.txt");
+
+            WebResponse res = await http.GetResponseAsync();
+
+            using (StreamReader sr = new StreamReader(res.GetResponseStream()))
+            {
+                System.Version latestversion = new(sr.ReadToEnd());
+
+                if (latestversion > Version)
+                {
+                    Console.WriteLine(Version.ToString(), latestversion.ToString());
+                }
+
+                return;
+            }
+        }
+
+        #endregion
+
+        private void OnWorldSave(WorldSaveEventArgs args)
+        {
+            try
+            {
+                InformLatestVersion();
+            }
+            catch { }
+        }
 
         private async void OnGetData(GetDataEventArgs args)
         {
