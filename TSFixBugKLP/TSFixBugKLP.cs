@@ -71,7 +71,7 @@ namespace TSFixBugKLP
 
         public async Task InformLatestVersion()
         {
-            var http = HttpWebRequest.CreateHttp("https://raw.githubusercontent.com/Nightklpgaming/TShock-GSKLP-Moderation/master/version.txt");
+            var http = HttpWebRequest.CreateHttp("https://raw.githubusercontent.com/Nightklpgaming/TSFixBugKLP/refs/heads/main/version.txt");
 
             WebResponse res = await http.GetResponseAsync();
 
