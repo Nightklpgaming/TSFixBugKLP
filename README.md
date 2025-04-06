@@ -3,7 +3,7 @@ fix a certain tshock simple bug
 
 
 ## Config File
-- this can be found on `` once's you implement the plugin
+- this can be found on `TSFixBugKLP.json` once's you implement the plugin
 
 [ Enable_ItemFrameFix ]
 - Return's a item once's a player interact **itemframe** in a region they don't own
