@@ -183,7 +183,16 @@ namespace TSFixBugKLP
                             async Task fixp()
                             {
                                 await Task.Delay(800);
-                                NetMessage.SendData((int)PacketTypes.PlayerSpawn, -1, -1, NetworkText.Empty, playerid);
+                                TShock.Players.ForEach(p =>
+                                {
+                                    if (p != null)
+                                    {
+                                        if (playerid != p.Index)
+                                        {
+                                            p.SendData(PacketTypes.PlayerSpawn, "", playerid);
+                                        }
+                                    }
+                                });
                             }
                         }
 
